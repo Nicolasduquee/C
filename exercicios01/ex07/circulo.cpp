@@ -1,5 +1,5 @@
-//Criar um programa em linguagem C que calcule o perímetro e a área
-//de uma circunferência de raio R(fornecido pelo usuário).
+//Criar um programa em linguagem C que calcule o perÃ­metro e a Ã¡rea
+//de uma circunferÃªncia de raio R(fornecido pelo usuÃ¡rio).
 
 #include<windows.h>
 #include<stdio.h>
@@ -10,15 +10,15 @@ main(){
 	
 	float r, p, a;
 	
-	printf("Perímetro e área de um círculo\n\n");
-	printf("Digite o raio do círculo:\n");
+	printf("Perimetro e area de um circulo\n\n");
+	printf("Digite o raio do circulo:\n");
 	scanf("%f", &r);
 	
 	p = 2 * 3,14 * r;
 	a = 3,14 * (r * r);
 
-	printf("O perímetro do círculo é: %.2f\n", p);
-	printf("A área do círculo é : %.2f\n", a);
+	printf("O perimetro do circulo e: %.2f\n", p);
+	printf("A irea do circulo e: %.2f\n", a);
 	
 	system("pause");
 }
