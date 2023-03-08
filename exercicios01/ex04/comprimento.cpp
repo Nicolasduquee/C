@@ -1,5 +1,5 @@
-//Criar um programa em linguagem C que faÁa 
-//a convers„o de m em km hm, dam, dc, dm e mm.
+//Criar um programa em linguagem C que fa√ßa 
+//a convers√£o de m em km hm, dam, dc, dm e mm.
 
 #include <windows.h>
 #include <stdio.h>
@@ -10,7 +10,7 @@ main(){
 	float 	mm, cm, dm, m, dam, hm, km;
 	
 	printf("Conversor de medidas de comprimento\n\n");
-	printf("Digite a dist‚ncia em metros a ser convertida:\n");
+	printf("Digite a distancia em metros a ser convertida:\n");
 	scanf("%f", &m);
 	
 	dm = m * 10;
@@ -21,7 +21,7 @@ main(){
 	km = hm / 10;
 	
 	printf("\n");
-	printf("Dist‚ncia em:\n");
+	printf("Dist√¢ncia em:\n");
 	printf("Metros: %.2f\n", m);
 	printf("Decimetros: %.2f\n", dm);
 	printf("Centimetros: %.2f\n", cm);

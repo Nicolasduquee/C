@@ -1,4 +1,4 @@
-// Criar um programa em linguagem C que resolva a fÛrmula deBh·skara.
+// Criar um programa em linguagem C que resolva a f√≥rmula deBh√°skara.
 
 #include <windows.h>
 #include <stdio.h>
@@ -10,7 +10,7 @@ main(){
 	
 	float a, b, c, d, x1, x2;
 	
-	printf("FÛrmula de Bh·skara\n");
+	printf("Formula de Bhaskara\n");
 	printf("Digite os valores de a, b e c, respectivamente:\n");
 	scanf("%f%f%f", &a, &b, &c);
 	

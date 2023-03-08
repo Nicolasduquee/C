@@ -1,11 +1,11 @@
-/*Uma pizzaria de São Paulo inventou uma
+/*Uma pizzaria de SÃ£o Paulo inventou uma
 nova modalidade de pizza, chamada de
-“Meia Pizza da Casa”. O cliente escolhe o
+â€œMeia Pizza da Casaâ€. O cliente escolhe o
 raio da pizza e o pizzaiolo faz uma meia
 pizza de calabresa com essa medida de
 raio. Crie um programa para ajudar o
-pizzaiolo a calcular a área da “Meia Pizza
-da Casa” baseada na medida do raio
+pizzaiolo a calcular a Ã¡rea da â€œMeia Pizza
+da Casaâ€ baseada na medida do raio
 escolhida pelo cliente.*/
 
 #include<windows.h>
@@ -25,7 +25,7 @@ main(){
 	mp = p / 2;
 	
 	printf("\n");
-	printf("A área da meia pizza será de:\n");
+	printf("A area da meia pizza sera de:\n");
 	printf("%.2f cm \n\n", mp);
 	
 	system("pause");
