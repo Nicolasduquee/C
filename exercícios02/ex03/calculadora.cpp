@@ -1,6 +1,6 @@
-/*Criar um programa (CALCULADORA ) em
-linguagem C que calcule as quatro
-operações básicas ( + , - , / e * )*/
+/*Criar um programa (CALCULADORA ) em linguagem C 
+que calcule as quatro operaÃ§Ãµes bÃ¡sicas
+( + , - , / e * )*/
 
 #include <windows.h>
 #include <stdio.h>
