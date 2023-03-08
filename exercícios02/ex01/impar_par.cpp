@@ -1,5 +1,5 @@
-/*Criar um programa em linguagem
-C que identifique se o numero é
+/*Criar um programa em linguagem C
+que identifique se o numero Ã©
 PAR ou IMPAR.*/
 
 #include <windows.h>
