@@ -1,8 +1,8 @@
-/*Uma fábrica de brinquedos no Japão inventou uma nova forma
-de produzir bambolês. O cliente escolhe o raio do bambolê
-e a fábrica produz o bambolê sob medida para o cliente.
+/*Uma fÃ¡brica de brinquedos no JapÃ£o inventou uma nova forma
+de produzir bambolÃªs. O cliente escolhe o raio do bambolÃª
+e a fÃ¡brica produz o bambolÃª sob medida para o cliente.
 Crie um programa para ajudar o fabricante a calcular o
-perímetro do bambolê baseado na medida do raio escolhida
+perÃ­metro do bambolÃª baseado na medida do raio escolhida
 pelo cliente.*/
 
 #include<windows.h>
@@ -13,14 +13,14 @@ main(){
 	
 	float r, p;
 	
-	printf("Bamboê sob medida\n\n");
-	printf("Digite o raio desejado para o bambolê\n");
+	printf("Bambole sob medida\n\n");
+	printf("Digite o raio desejado para o bambole\n");
 	scanf("%f", &r);
 	
 	p = 2 * 2,14 * r;
 	
 	printf("\n");
-	printf("O perímetro do baambolê será de: %.2f metros\n\n", p);
+	printf("O perimetro do baambole serÃ¡ de: %.2f metros\n\n", p);
 	
 	system("pause");
 }
