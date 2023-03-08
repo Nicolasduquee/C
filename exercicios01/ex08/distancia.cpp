@@ -1,5 +1,5 @@
 /*Criar um programa em linguagem C que
-receba uma medida em pés, faça as conversões 
+receba uma medida em pÃ©s, faÃ§a as conversÃµes 
 e a seguir mostre os resultados.
 a) Polegadas;
 b) Jardas;
@@ -14,15 +14,15 @@ main(){
 	float pes, pol, jar, mil;
 	
 	printf("Conversor de medidas\n\n");
-	printf("Digite a distância em pés: \n\n");
+	printf("Digite a distancia em pes: \n\n");
 	scanf("%f", &pes);
 	
 	pol = pes * 12;
 	jar = pes * 3;
 	mil= jar * 1760;
 	
-	printf("Distância em:\n\n");
-	printf("Pés:%.2f\n", pes);
+	printf("Distancia em:\n\n");
+	printf("Pes:%.2f\n", pes);
 	printf("Polegadas:%.2f\n", pol);
 	printf("Jardas:%.2f\n", jar);
 	printf("Milhas:%.2f\n", mil);
