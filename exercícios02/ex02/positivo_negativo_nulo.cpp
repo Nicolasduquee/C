@@ -1,6 +1,5 @@
-/*Criar um programa em linguagem
-C que identifique se o numero é
-+, - ou NULO.*/
+/*Criar um programa em linguagem C 
+que identifique se o numero Ã© +, - ou NULO.*/
 
 #include<windows.h>
 #include<stdio.h>
