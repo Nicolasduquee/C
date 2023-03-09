@@ -1,4 +1,5 @@
-//Criar um programa em linguagem C que efetue a soma de dois números dos tipo real.
+//Criar um programa em linguagem C que efetue
+//a soma de dois nÃºmeros dos tipo real.
 
 #include <windows.h>
 #include <stdio.h>
