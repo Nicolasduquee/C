@@ -1,10 +1,8 @@
-/*Um fabricante de ferraduras africano acaba de
-expandir os negócios. Agora ele fabrica
-ferraduras para qualquer tipo de animal com
-casco. O formato das ferraduras é o de meia
-tora. O cliente escolhe o raio externo e o raio
-interno e ele produz a ferradura. Crie um
-programa para ajudar o ferreiro a calcular a
+/*Um fabricante de ferraduras africano acaba de expandir os negócios.
+Agora ele fabrica ferraduras para qualquer tipo de animal com casco.
+O formato das ferraduras é o de meia tora.
+O cliente escolhe o raio externo e o raio interno e ele produz a ferradura.
+Crie um programa para ajudar o ferreiro a calcular a
 área da ferradura baseado na medida do raio
 esterno e interno fornecido pelo cliente.*/
 
