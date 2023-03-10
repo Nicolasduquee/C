@@ -1,5 +1,5 @@
-//Criar um programa em linguagem C que converta
-//um numero decimal de 0 a 15 em numero bin·rio.
+/*Criar um programa em linguagem C que converta
+um numero decimal de 0 a 15 em numero bin√°rio.*/
 
 #include<windows.h>
 #include<stdio.h>
@@ -11,8 +11,8 @@ main(){
 	int dec;
 	char bin;
 		
-	printf("Conversor de n˙mero decimal para bin·rio\n\n");
-	printf("Digite um n˙mero decimal entre 0 e 15 para ser convertido para bin·rio/n");
+	printf("Conversor de n√∫mero decimal para bin√°rio\n\n");
+	printf("Digite um n√∫mero decimal entre 0 e 15 para ser convertido para bin√°rio/n");
 	scanf("%d", &dec);
 	
 	bin = "";
