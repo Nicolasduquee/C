@@ -1,7 +1,7 @@
 /*Uma fábrica de brinquedos no Japão inventou uma nova forma
 de produzir bambolês. O cliente escolhe o raio do bambolê
 e a fábrica produz o bambolê sob medida para o cliente.
-Crie um programa para ajudar o fabricante a calcular o
+Crie um programa em linguagem C para ajudar o fabricante a calcular o
 perímetro do bambolê baseado na medida do raio escolhida
 pelo cliente.*/
 
