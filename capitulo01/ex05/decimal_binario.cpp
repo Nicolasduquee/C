@@ -1,34 +1,27 @@
 /*Criar um programa em linguagem C que converta
-um numero decimal de 0 a 15 em numero binário.*/
+um numero decimal de 0 a 15 em numero binario.*/
 
 #include<windows.h>
 #include<stdio.h>
 #include<math.h>
+#include<conio.h>
 
 main(){
 	system("cls");
 	
-	int dec;
-	char bin;
+	int dec, bin1, bin2, bin3, bin4;
 		
-	printf("Conversor de número decimal para binário\n\n");
-	printf("Digite um número decimal entre 0 e 15 para ser convertido para binário/n");
+	printf("Conversor de numero decimal para binario\n\n");
+	printf("Digite um numero de base decimal entre 0 e 15 para ser convertido para binario\n");
 	scanf("%d", &dec);
 	
-	bin = "";
+	bin1 = dec % 2;
+	bin2 = (dec / 2) % 2;
+	bin3 = ((dec / 2) / 2) % 2;
+	bin4 =(((dec / 2) / 2) / 2) %2;
 	
-	while (dec > 0){
-		
-		if(dec % 2 == 0){
-			bin = "1" + bin;
-		}
-		
-		else{
-			bin = "0" + bin;
-		}
-		
-	}
-		
+	printf("\n");
+	printf("%d%d%d%d\n\n", bin4, bin3, bin2, bin1);
 	
 	system("pause");
 }
