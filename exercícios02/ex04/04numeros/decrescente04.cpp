@@ -67,7 +67,7 @@ main(){
 		men = v4;
 	}
 
-	printf("A ordem decrescente e: %.0f, %.0f, %.0f, %.0f.", mai, mei, mei2, men);
+	printf("A ordem decrescente e: %.0f, %.0f, %.0f, %.0f.co", mai, mei, mei2, men);
 		
 	system("pause");
 }
