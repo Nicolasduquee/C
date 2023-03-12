@@ -17,7 +17,7 @@ main(){
 	scanf("%f", &v1);
 	
 	mai = v1;
-	men = v1;
+	mei = v1;
 	
 	printf("Digite o segundo valor:\n");
 	scanf("%f", &v2);
@@ -26,18 +26,48 @@ main(){
 		mai = v2;
 	}
 	else{
-		men = v2;
+		mei = v2;
 	}
-	
-	printf("%f%f", mai, men);
 	
 	printf("Digite o terceiro valor:\n");
 	scanf("%f", &v3);
 	
-	//if(v3 > v2 ){
-	//}
+	if (v3 > mai){
+		mei2 = mei;
+		mei = mai;
+		mai = v3;
+	}
+	else if (v3 < mai && v3 > mei){
+		mei2 = mei;
+		mei = v3;
+	}
+	else if (v3 < mei){
+		mei2 = v3;
+	}
 	
+	printf("Digite o quarto valor:\n");
+	scanf("%f", &v4);
 	
+	if (v4 > mai){
+		men = mei2;
+		mei2 = mei;
+		mei = mai;
+		mai = v4;
+	}
+	else if (v4 > mei && v4 < mai){
+		men = mei2;
+		mei2 = mei;
+		mei = v4;
+	}
+	else if ( v4 > mei2 && v4 < mei){
+		men = mei2;
+		mei2 = v4;
+	}
+	else if (v4 < mei2){
+		men = v4;
+	}
+
+	printf("A ordem decrescente e: %.0f, %.0f, %.0f, %.0f.", mai, mei, mei2, men);
 		
 	system("pause");
 }
