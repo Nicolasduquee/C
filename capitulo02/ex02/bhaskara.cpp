@@ -1,4 +1,5 @@
-// Criar um programa em linguagem C que resolva a fórmula de Bháskara.
+// 01 - Criar um programa em linguagem C
+// que resolva a fórmula de Bháskara.
 
 #include <windows.h>
 #include <stdio.h>
