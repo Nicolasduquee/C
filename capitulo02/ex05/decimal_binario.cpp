@@ -1,4 +1,4 @@
-/*Criar um programa em linguagem C que converta
+/* 05 - criar um programa em linguagem C que converta
 um numero decimal de 0 a 15 em numero binario.*/
 
 #include<windows.h>
