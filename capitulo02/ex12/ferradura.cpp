@@ -1,4 +1,4 @@
-/*Um fabricante de ferraduras africano acaba de expandir os negócios.
+/* 12 - Um fabricante de ferraduras africano acaba de expandir os negócios.
 Agora ele fabrica ferraduras para qualquer tipo de animal com casco.
 O formato das ferraduras é o de meia tora.
 O cliente escolhe o raio externo e o raio interno e ele produz a ferradura.
