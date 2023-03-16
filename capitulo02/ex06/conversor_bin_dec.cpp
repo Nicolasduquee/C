@@ -1,5 +1,5 @@
-/*Criar um programa em linguagem
-C que faÁa a convers„o de 4 bits
+/* 06 - Criar um programa em linguagem
+C que fa√ßa a convers√£o de 4 bits
 ( NIBLE ) em um numero decimal.*/
 
 #include <conio.h>
