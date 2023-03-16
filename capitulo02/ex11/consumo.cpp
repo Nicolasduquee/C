@@ -1,4 +1,4 @@
-/*Criar um programa em linguagem C um programa
+/* 11 - Criar um programa em linguagem C um programa
 que Calcule o consumo de um veículo conforme
 os dados informado no teclado:
 Tempo em horas, velocidade média e distância*/
