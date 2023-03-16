@@ -1,4 +1,4 @@
-/*Criar um programa em linguagem C que
+/* 08 - Criar um programa em linguagem C que
 receba uma medida em pés, faça as conversões 
 e a seguir mostre os resultados.
 a) Polegadas;
