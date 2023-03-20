@@ -1,4 +1,4 @@
-/*Criar um programa ( MEGA SENA )
+/* 11 - Criar um programa ( MEGA SENA )
 em linguagem C que sorteie 6
 números com os critérios que:
 
