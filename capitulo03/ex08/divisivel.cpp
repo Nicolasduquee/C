@@ -1,4 +1,4 @@
-/*Criar um programa em linguagem C
+/* 08 - Criar um programa em linguagem C
 que leia um número positivo do teclado
 e informar se ele é divisível por  10, 
 por 5, por 2 ou se não é divisível.*/
