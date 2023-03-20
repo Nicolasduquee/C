@@ -2,7 +2,7 @@
 leia dois números inteiros e somá-los.
 Se a soma for maior que 10, mostrar o
 resultado. Senão exibir a mensagem
-que não é possível exibir o número.*/
+que não é possível exibir o número. */
 
 #include <windows.h>
 #include <stdio.h>
