@@ -1,5 +1,5 @@
-/*Criar um programa em linguagem C
-que leia um número do usuário. 
+/* 06 - Criar um programa em linguagem C
+que leia um nÃºmero do usuÃ¡rio. 
 Se for maior que 20, imprimir 
 a metade desse numero.*/
 
