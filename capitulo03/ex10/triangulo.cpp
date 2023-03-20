@@ -1,4 +1,4 @@
-/*Criar um programa em linguagem C que ajude
+/* 10 - Criar um programa em linguagem C que ajude
 Luiz na aula de geometria, sabendo que tenha
 que obter 3 números e imprimir se eles podem
 ou não ser lados de um triângulo.
