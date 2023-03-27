@@ -1,9 +1,10 @@
-/*Criar um programa ( MEGA SENA )
+/* 11 - Criar um programa ( MEGA SENA )
 em linguagem C que sorteie 6
-números com os critérios que:
-• Os números não podem ser iguais entre eles
-• Nenhum dos números podem ser 0
-• Os números a serem sorteados são de 1 a 60*/
+nÃºmeros com os critÃ©rios que:
+
+â€¢ Os nÃºmeros nÄƒo podem ser iguais entre eles;
+â€¢ Nenhum dos nÃºmeros podem ser 0;
+â€¢ Os nÃºmeros a serem sorteados sÄƒo de 1 a 60.*/
 
 #include <stdlib.h>
 #include <stdio.h>

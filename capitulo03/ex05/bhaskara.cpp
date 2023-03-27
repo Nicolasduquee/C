@@ -1,7 +1,7 @@
-/*Criar um programa em linguagem C
-que resolva a fórmula de Bháskara
-e determine se é possível obter raiz
-de um número negativo.*/
+/* 05 - Criar um programa em linguagem C
+que resolva a fÃ³rmula de BhÃ¡skara
+e determine se Ã© possÃ­vel obter raiz
+de um nÃºmero negativo.*/
 
 #include<windows.h>
 #include<stdio.h>

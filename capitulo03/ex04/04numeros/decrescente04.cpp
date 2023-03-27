@@ -1,6 +1,6 @@
-/*Criar um programa em linguagem C
+/* 04 - c) Criar um programa em linguagem C
 que identifique e que ordene 4
-números em ordem decrescente.*/
+nÃºmeros em ordem decrescente.*/
 
 #include<windows.h>
 #include<stdio.h>

@@ -1,8 +1,8 @@
-/*Criar um programa em linguagem C que
-leia dois n˙meros inteiros e som·-los.
+/* 07 - Criar um programa em linguagem C que
+leia dois n√∫meros inteiros e som√°-los.
 Se a soma for maior que 10, mostrar o
-resultado. Sen„o exibir a mensagem
-que n„o È possÌvel exibir o n˙mero.*/
+resultado. Sen√£o exibir a mensagem
+que n√£o √© poss√≠vel exibir o n√∫mero. */
 
 #include <windows.h>
 #include <stdio.h>

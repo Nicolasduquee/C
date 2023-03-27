@@ -1,8 +1,9 @@
-/*Criar um programa em linguagem C que ajude
+/* 10 - Criar um programa em linguagem C que ajude
 Luiz na aula de geometria, sabendo que tenha
-que obter 3 números e imprimir se eles podem
-ou não ser lados de um triângulo. A condição
-para isto é: A<B+C e B<A+C e C<A+B.*/
+que obter 3 nÃºmeros e imprimir se eles podem
+ou nÃ£o ser lados de um triÃ¢ngulo.
+
+A condiÃ§Ã£o para isto Ã©: A<B+C e B<A+C e C<A+B.*/
 
 #include<windows.h>
 #include<stdio.h>

@@ -1,4 +1,4 @@
-/*Criar um programa em linguagem C que calcule o perímetro e a área
+/* 07 - Criar um programa em linguagem C que calcule o perímetro e a área
 de uma circunferência de raio R (fornecido pelo usuário).*/
 
 #include<windows.h>

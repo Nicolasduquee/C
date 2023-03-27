@@ -1,5 +1,5 @@
-/*  Criar um programa em linguagem C
-que identifique e que ordene 2 números
+/* 04 - a) Criar um programa em linguagem C
+que identifique e que ordene 2 nÃºmeros
  em ordem decrescente. */
 
 #include <windows.h>

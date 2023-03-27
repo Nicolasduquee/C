@@ -1,7 +1,7 @@
-/*Criar um programa em linguagem C
-que leia um número positivo do teclado
-e informar se ele é divisível por 
-10, por 5, por 2 ou se não é divisível.*/
+/* 08 - Criar um programa em linguagem C
+que leia um nÃºmero positivo do teclado
+e informar se ele Ã© divisÃ­vel por  10, 
+por 5, por 2 ou se nÃ£o Ã© divisÃ­vel.*/
 
 #include <windows.h>
 #include <stdio.h>
