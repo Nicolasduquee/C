@@ -1,0 +1,22 @@
+09 - Preencher um vetor de 8 elementos inteiros. Mostrar o vetor e informar quantos números
+são maior que 30, Somar estes números. Somar todos os números.
+
+#include<stdio.h>  
+
+main() {
+
+    int vetorUsuario[8], novoVetor[8], i;    
+
+    for(i = 0; i < 8; i++) {  
+        printf("Digite um numero: ");   
+        scanf("%d", &vetorUsuario[i]);  
+
+        novoVetor[i] = (vetorUsuario[i] % 2 == 0) ? 0 : 1;
+        
+    }
+
+    printf("\nNovo vetor gerado:\n");  
+    for(i = 0; i < 8; i++) {  
+        printf("%d\t", novoVetor[i]);
+    }
+}

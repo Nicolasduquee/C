@@ -1,0 +1,18 @@
+02 - Preencher um vetor com 6 números e mostrá-los na tela.
+
+ #include<stdio.h> 
+#include<conio.h> 
+
+main() {
+	int vetor[10], i, j;  
+
+	for(i = 2, j = 0; i <= 20; i += 2, j++) {
+		vetor[j] = i; 
+	}
+	
+	for(i = 0; i < 10; i++){  
+		printf(" %d \n", vetor[i]);
+	}
+	
+	getch();
+}

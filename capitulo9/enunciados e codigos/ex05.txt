@@ -1,0 +1,15 @@
+05 - Responda as perguntas abaixo, escolhendo a alternativa adequada para cada
+questão.
+
+01 - c) Terceiro elemento
+02 - b) Não
+03 - d) 7
+04 - b) 19
+05 - d) strlen
+06 - e) int *pti;
+07 - e) pti é igual a 10
+08 - b) *pj = &j;
+09 - d) pti[1] é igual a 10;
+10 - a) efetuamos a leitura de f.
+11 - c) pti += ptj;
+12 - e) *((*matr)+1) é igual a 5

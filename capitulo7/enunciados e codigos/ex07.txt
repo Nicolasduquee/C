@@ -1,0 +1,30 @@
+07 - Preencher um vetor com números inteiros( 8 unidades ); solicitar um número do teclado.
+Pesquisar se esse número existe no vetor. Se existir, imprimir em qual posição do vetor e qual
+a ordem foi digitado. Se não existir, imprimir MSG que não existe.
+
+#include<stdio.h>
+
+main() {
+
+    int vetor[8], maior = 0, multiplo5 = 0, entre10E30 = 0, i;
+    float soma = 0, media;
+
+    for(i = 0; i < 8; i++) { 
+        printf("Digite um numero: ");  
+        scanf("%d", &vetor[i]);   
+        soma += vetor[i];   
+        maior = (vetor[i] > maior) ? vetor[i] : maior;
+        multiplo5 += (vetor[i] % 5 == 0) ? 1 : 0;
+        entre10E30 += ((vetor[i] > 10) && (vetor[i] < 30)) ? 1 : 0;  
+    }
+
+    media = soma / 8;  
+    for(i = 0; i < 8; i++)
+        printf("%d\t", vetor[i]); 
+
+    printf("\nMedia dos valores do vetor e %.2f", media);
+    printf("\nExistem %d numeros multiplos de 5 no vetor.", multiplo5);  
+    printf("\nExistem %d numeros maiores que 10 e menores que 30 no vetor.", entre10E30);  
+    printf("\nO maior numero do vetor e %d", maior);
+}
+

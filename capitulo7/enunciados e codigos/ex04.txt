@@ -1,0 +1,28 @@
+04 - Preencher um vetor com 3 nomes com 20 letras no máximo cada. Imprimir os Nomes.
+
+#include<stdio.h>  
+
+main() {
+
+	int vetor[8], num, i;
+	bool existe = false; 
+
+	for(int i=0; i < 8; i++) {   
+		printf("\nDigite o numero na posicao %d do vetor: ", i); 
+		scanf("%d", &vetor[i]);
+	}
+
+	printf("\n\nDigite um numero: ");  
+	scanf("%d", &num); 
+
+	for(i = 0; i < 8; i++) {  
+		if(num == vetor[i]) { 
+			existe = true; 
+			printf("O numero %d esta na posicao %d do vetor.", num, i);  
+			printf("\nO numero %d foi o %d numero a ser digitado.", num, i + 1);
+		}
+	}
+	if(!existe) {
+		printf("O numero nao existe dentro do vetor!");
+	}
+}

@@ -1,0 +1,37 @@
+05 - Faça um programa que lê uma duas matrizes de 3x3 e um determinante para multiplicar
+esta matriz.
+
+#include <stdio.h>
+
+int main() {
+    int matriz[3][3], novaMatriz[3][3], i, j;
+    
+    for(i = 0; i < 3; i++) {
+        for(j = 0; j < 3; j++) {
+            printf("Digite o elemento de posicao [%d][%d]: ", i, j);
+            scanf("%d", &matriz[i][j]);
+        }
+    }
+
+    for(i = 0; i < 3; i++) {
+        for(j = 0; j < 3; j++) {
+            novaMatriz[i][j] = matriz[i][j] * 5;
+        }
+    }
+
+    printf("\nMatriz original:\n");
+    for(i = 0; i < 3; i++) {
+        for(j = 0; j < 3; j++) {
+            printf("%d ", matriz[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("\n\nNova matriz:\n");
+    for(i = 0; i < 3; i++) {
+        for(j = 0; j < 3; j++) {
+            printf("%d ", novaMatriz[i][j]);
+        }
+        printf("\n");
+    }
+}

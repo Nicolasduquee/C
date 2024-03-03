@@ -1,0 +1,36 @@
+08 - Preencher um vetor com os números pares do número 2 a 20. Preencher um vetor com os
+números de 10 a 19. Somar os vetores acima.
+
+#include<stdio.h>
+
+main() {
+ 
+    int vetor1[5], vetor2[5], i;  
+
+    printf("Preenchendo o primeiro vetor\n"); 
+    for(i = 0; i < 5; i++) { 
+        printf("Digite um numero: "); 
+        scanf("%d" ,&vetor1[i]);  
+    }
+
+    printf("\nPreenchendo o segundo vetor\n"); 
+    for(i = 0; i < 5; i++) { 
+        printf("Digite um numero: ");  
+        scanf("%d" ,&vetor2[i]);  
+    }
+
+    printf("\n\nVetor 1\n");  
+    for(i = 0; i < 5; i++) {  
+        printf("%d\t", vetor1[i]);  
+    }
+ 
+    printf("\nVetor 2\n");  
+    for(i = 0; i < 5; i++) { 
+        printf("%d\t", vetor2[i]);  
+    }
+    
+    printf("\nSoma dos vetores\n");  
+    for(i = 0; i < 5; i++) {   
+        printf("%d\t", vetor1[i] + vetor2[i]);
+    }
+}

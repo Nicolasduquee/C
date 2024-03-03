@@ -1,0 +1,36 @@
+03 - Preencher um vetor com os números pares do número 2 a 20.
+
+main() {
+	
+	int tamanho, i; 
+	char nome[50];
+	
+	printf("\nDigite um nome: "); 
+	gets(nome);  
+	
+	tamanho = strlen(nome);  
+	printf("Palavra digitada: %s", nome); 
+	printf("\nPrimeiro caractere: %c", nome[0]); 
+	printf("\nUltimo caractere: %c", nome[tamanho - 1]);  
+	printf("\nO quarto caractere: %c", nome[3]);  
+	
+	printf("\nDo primeiro ao terceiro caractere: ");  
+	
+	for(i = 0; i < 3; i++) { 
+		printf("%c", nome[i]);
+	}
+	
+	printf("\nDo segundo ao ultimo caractere: ");
+	
+	for(i = 1; i < tamanho; i++) {  
+		printf("%c", nome[i]); 
+	}
+	
+
+	printf("\n\nTodos os caracteres do vetor: \n"); 
+	for(i = 0; i < tamanho; i++) {
+		printf("Posicao %d = '%c'\n", i, nome[i]);
+	}
+
+	getch();  
+}
