@@ -1,2 +1,2 @@
-# C
-Exercícios desenvolvidos em linguagem C.
+# C++
+Exercícios desenvolvidos em linguagem C++.
